@@ -1,0 +1,105 @@
+
+ul#Menu li ul {
+position: absolute;
+visibility: hidden;
+display: none;
+margin: 0;
+padding: 0;
+width:165px;
+top: 25px;
+left: 0;
+background:rgba(0, 0, 0, 0.9);
+border: solid 1px #666;
+border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-box-shadow: 2px 2px 3px #666;
+-moz-box-shadow: 2px 2px 3px #666;
+box-shadow: 2px 2px 3px #666;
+z-index: 100;
+text-align:left;
+}
+ul#Menu li ul li {
+float: none;
+display: inline;
+margin: 0;
+z-index: 9;
+background:transparent;
+border: none;
+font-size: 12pt;
+-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+text-shadow: 2px 2px 3px #000000;
+z-index: 4;
+}
+
+ul#Menu li ul li a {
+background: none 
+transparent;
+color: #fff ;
+text-shadow: 0 1px 0 #000;
+font-size: 12pt;
+text-align: center;
+font-weight: bold;
+border: none;
+box-shadow: none;
+display: inline-block;
+width: 165px;
+padding: 0;
+margin: 0;
+}
+ul#Menu li ul li a:hover {
+ background:url(plugins/CategoriesDropdown/images/blusteel.png);
+background-repeat:repeat;
+  color:#fff;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  text-shadow: 2px 2px 3px #000000;
+box-shadow:none;
+}
+ul#Menu ul li:last-child > a:hover {
+border-bottom-left-radius: 5px;
+-webkit-border-bottom-left-radius: 5px;
+-moz-border-radius-bottomleft: 5px;
+border-bottom-right-radius: 5px;
+-webkit-border-bottom-right-radius: 5px;
+-moz-border-radius-bottomright: 5px;
+}
+ul#Menu ul li:first-child > a:hover {
+  border-top-left-radius: 5px;
+  -webkit-border-top-left-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  border-top-right-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-radius-topright: 5px;
+}
+ul#Menu ul li:last-child > a {
+border-bottom-left-radius: 5px;
+-webkit-border-bottom-left-radius: 5px;
+-moz-border-radius-bottomleft: 5px;
+border-bottom-right-radius: 5px;
+-webkit-border-bottom-right-radius: 5px;
+-moz-border-radius-bottomright: 5px;
+}
+ul#Menu ul li:first-child > a {
+  border-top-left-radius: 5px;
+  -webkit-border-top-left-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  border-top-right-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-radius-topright: 5px;
+}
+ul#Menu a span, ul#Menu li.Active a span, ul#Menu li.Highlight a:hover span {
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+border-radius: 2px;
+padding: 0 2px;
+font-size: 13px;
+line-height: 13px;
+font-weight:bold;
+text-shadow: none;
+background:#fff;
+color:#000;
+}
